@@ -1,3 +1,11 @@
+# General Stuff.
 .DS_Store
+
+# Eagle Stuff.
 *.s#*
 *.b#*
+
+# MPLAB X Stuff.
+build/
+dist/
+
