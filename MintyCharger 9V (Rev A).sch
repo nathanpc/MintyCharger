@@ -18260,7 +18260,7 @@ JST PH 2-pin thru-home side entry</description>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="BATT" library="adafruit" deviceset="JST_2PIN" device="-THM"/>
-<part name="VIN" library="adafruit" deviceset="JST_2PIN" device="-THM"/>
+<part name="VIN" library="adafruit" deviceset="JST_2PIN" device="-THM" value="15V"/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="D2" library="diode" deviceset="1N4148" device="DO35-7"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="0207/10" value="1kΩ"/>
@@ -18655,9 +18655,9 @@ JST PH 2-pin thru-home side entry</description>
 <label x="99.06" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="GP5/T1CKI/OSC1/CLKIN"/>
-<wire x1="48.26" y1="45.72" x2="53.34" y2="45.72" width="0.1524" layer="91"/>
-<label x="53.34" y="45.72" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="GP3/!MCLR!/VPP"/>
+<wire x1="48.26" y1="40.64" x2="53.34" y2="40.64" width="0.1524" layer="91"/>
+<label x="53.34" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -18690,9 +18690,9 @@ JST PH 2-pin thru-home side entry</description>
 <pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="GP3/!MCLR!/VPP"/>
-<wire x1="48.26" y1="40.64" x2="53.34" y2="40.64" width="0.1524" layer="91"/>
-<label x="53.34" y="40.64" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="GP4/AN3/T1G/OSC2/CLKOUT"/>
+<wire x1="48.26" y1="43.18" x2="53.34" y2="43.18" width="0.1524" layer="91"/>
+<label x="53.34" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BATT_LVL3" class="0">
@@ -18702,9 +18702,9 @@ JST PH 2-pin thru-home side entry</description>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="GP4/AN3/T1G/OSC2/CLKOUT"/>
-<wire x1="48.26" y1="43.18" x2="53.34" y2="43.18" width="0.1524" layer="91"/>
-<label x="53.34" y="43.18" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="GP5/T1CKI/OSC1/CLKIN"/>
+<wire x1="48.26" y1="45.72" x2="53.34" y2="45.72" width="0.1524" layer="91"/>
+<label x="53.34" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -18736,7 +18736,7 @@ JST PH 2-pin thru-home side entry</description>
 <approved hash="104,1,48.26,48.26,IC1,VDD,+5V,,,"/>
 <approved hash="104,1,48.26,30.48,IC1,VSS,GND,,,"/>
 <approved hash="113,1,137.482,74.93,ON,,,,,"/>
-<approved hash="113,1,83.6214,100.199,SW_VBATT,,,,,"/>
+<approved hash="113,1,83.3774,100.199,SW_VBATT,,,,,"/>
 <approved hash="113,1,228.837,78.6088,BATT,,,,,"/>
 <approved hash="113,1,98.8229,65.9088,VIN,,,,,"/>
 </errors>
