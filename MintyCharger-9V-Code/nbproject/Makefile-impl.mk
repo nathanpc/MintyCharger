@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=MintyCharger.X
+PROJECTNAME=MintyCharger-9V-Code
 
 # Active Configuration
 DEFAULTCONF=default
